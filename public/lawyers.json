@@ -1,0 +1,99 @@
+
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/xq4bFjqL/Chat-GPT-Image-May-16-2025-06-29-19-AM.png",
+    "name": "John Doe",
+    "speciality": "Criminal Law",
+    "experience": "10+ years Experience",
+    "licenseNumber": " License No: BD 124512547"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/DfN1dK5r/Chat-GPT-Image-May-16-2025-06-29-19-AM.png",
+    "name": "Emily Carter",
+    "speciality": "Family Law",
+    "experience": "7+ years Experience",
+    "licenseNumber": " License No: BD 124512594"
+  },
+  {
+    "id": 3,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3HPNlNJeRM3xF5T02OJ3dy9qwY_eBdGLPYQ&s",
+    "name": "Robert Smith",
+    "speciality": "Corporate Law",
+    "experience": "12+ years Experience",
+    "licenseNumber": " License No: BD 124512588"
+  },
+  {
+    "id": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS4Bes6721F8UrvlVDTN9bC18Ky_7hwTXpNg&s",
+    "name": "Ava Brown",
+    "speciality": "Immigration Law",
+    "experience": "5+ years Experience",
+    "licenseNumber": " License No: BD 124512562"
+  },
+  {
+    "id": 5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVK97yMTjwFwppAGHL5r4Zf8XT4VkvvlNE-g&s",
+    "name": "Michael Lee",
+    "speciality": "Intellectual Property",
+    "experience": "8+ years Experience",
+    "licenseNumber": " License No: BD 1245125411"
+  },
+  {
+    "id": 6,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwXVevpz1JL3L1fGWKXqNWc4Kc_8WQeFvOMA&s",
+    "name": "Sophia Turner",
+    "speciality": "Environmental Law",
+    "experience": "6+ years Experience",
+    "licenseNumber": " License No: BD 1245125477"
+  },
+  {
+    "id": 7,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvKs5WdZKc0wA8ViQ6at2d5R7wUah3mIcAQ&s",
+    "name": "David Wilson",
+    "speciality": "Labor Law",
+    "experience": "9+ years Experience",
+    "licenseNumber": " License No: BD 1245125455"
+  },
+  {
+    "id": 8,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14PWA_mszqsShyBZwCc98zvcSthHY5gXFvA&s",
+    "name": "Isabella Moore",
+    "speciality": "Bankruptcy Law",
+    "experience": "4+ years Experience",
+    "licenseNumber": " License No: BD 1245125444"
+  },
+  {
+    "id": 9,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnnAYQqeOheJ_XvFvAqYXD2c2VAILFQ4iQQQ&s",
+    "name": "William Taylor",
+    "speciality": "Tax Law",
+    "experience": "11+ years Experience",
+    "licenseNumber": " License No: BD 1245125478"
+  },
+  {
+    "id": 10,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-isnMnUpoxJSgQRbQiIR1sdALMc8rs-DlHxxbzGqBheBxVMtvJt-nahdjIIo5C9lKRg&usqp=CAU",
+    "name": "Mia Anderson",
+    "speciality": "Real Estate Law",
+    "experience": "6+ years Experience",
+    "licenseNumber": " License No: BD 124512593"
+  },
+  {
+    "id": 11,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHPpXgtnxjRcuWLTdXU_qf-kABINly3e4ZrS1W9w9Gp4SM69ZuBLgBDayRl6paQ-rgi8&usqp=CAU",
+    "name": "James Thomas",
+    "speciality": "Civil Rights Law",
+    "experience": "13+ years Experience",
+    "licenseNumber": " License No: BD 124512572"
+  },
+  {
+    "id": 12,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3t90GGjMA_n8MPJXmptehPrS5eQaP7uBgI9nD2_m4sG0x7dwzZ4RaFp4jpUf87p0Pe0g&usqp=CAU",
+    "name": "Charlotte Harris",
+    "speciality": "Entertainment Law",
+    "experience": "5+ years Experience",
+    "licenseNumber": " License No: BD 1245125847"
+  }
+]
