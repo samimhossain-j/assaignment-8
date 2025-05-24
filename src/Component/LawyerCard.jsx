@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { removeFavorite } from '../utilis';
 
-const LawyerCard = ({law}) => {
-    console.log(law)
-    const { name, image, speciality, experience, licenseNumber } =law || {}
+const LawyerCard = ({law, }) => {
+    // console.log(law)
+    const { name, image, speciality, experience, licenseNumber,id } =law || {}
     return ( 
           
         
@@ -24,10 +25,13 @@ const LawyerCard = ({law}) => {
     </div>
     <h2 className="font-extrabold text-2xl text-[#0F0F0F]">{name}</h2>
     <p className='font-medium text-base text-[#0F0F0F70]'>{speciality}</p>
-    <p className='font-medium text-base text-[#0F0F0F70]'>{licenseNumber}</p>
+    <div className='border-1 border-dashed border-gray-300 w-full mx-auto'>
+
+</div>
+    <p className='font-medium text-base mt-2 text-[#0F0F0F70]'>{licenseNumber}</p>
    <div className="card-actions justify-end mt-3">
      
-     <Link to='/lawyer-details'>
+     <Link className='w-full' to={`/lawyer-details/${id}`}>
      <button className="w-full text-[#176AE5] border border-[#176AE5] text-center p-3 rounded-3xl">View Details</button>
      </Link>
       
@@ -36,6 +40,7 @@ const LawyerCard = ({law}) => {
     
   </div>
   </div>
+
 </div>
     );
 };

@@ -1,33 +1,42 @@
 import React from 'react';
+import { NavLink } from 'react-router';
 
 const Footer = () => {
     return (
         <footer className="footer footer-horizontal footer-center bg-black text-primary-content mt-4 p-8">
 
-        <div>
+       
+       
+
              <div className="flex pr-2  gap-2">
     <img className='w-8 h-8 rounded bg-white ' src="/src/assets/C002-assets/logo.png" alt="" />
         <h3 className='font-extrabold text-2xl'>Law.BD</h3>
   </div>
-  {/* <div className="navbar-center  lg:flex">
+
+        
+
+        
+            <div className="navbar-center  lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li className='font-medium text-lg'>
-        <NavLink to='/' className={({isActive})=>isActive?'text-indigo-700 ':'text-green-500'} >Home</NavLink>
+        <NavLink to='/' className={({isActive})=>isActive?'text-indigo-700 ':''} >Home</NavLink>
         </li>
       <li className='font-medium text-lg'>
-        <NavLink to='/Bookings' className={({isActive})=>isActive?'text-indigo-700':'text-black'}>My-Bookings</NavLink>
+        <NavLink to='/Bookings' className={({isActive})=>isActive?'text-indigo-700 ':''} >My-Bookings</NavLink>
         </li>
       <li className='font-medium text-lg'>
-        <NavLink to='/Blogs' className={({isActive})=>isActive?'text-indigo-700':'text-black'}> Blogs</NavLink>
+        <NavLink to='/Blogs' className={({isActive})=>isActive?'text-indigo-700 ':''} > Blogs</NavLink>
         </li>
       <li className='font-medium text-lg'>
-        <NavLink to='/Contact' className={({isActive})=>isActive?'text-indigo-700':'text-black'}>Contact Us</NavLink>
+        <NavLink to='/Contact' className={({isActive})=>isActive?'text-indigo-700 ':''} >Contact Us</NavLink>
         </li>
    
     
     </ul>
-  </div> */}
-        </div>
+  </div>
+
+      
+       
 
 <div className='border-1 border-dashed border-gray-800 w-full mx-auto'>
 
@@ -56,6 +65,7 @@ const Footer = () => {
      
     </div>
   </nav>
+ 
 </footer>
     );
 };

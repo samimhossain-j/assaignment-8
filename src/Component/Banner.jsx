@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
        
-            <div className="hero w-full   mx-auto rounded-2xl p-8 "
+            <div className="hero w-full min-h-screen  mx-auto rounded-2xl p-8 "
   style={{
     backgroundImage:
       "url(https://i.ibb.co/HTKBzBsj/banner-img-1.png)",

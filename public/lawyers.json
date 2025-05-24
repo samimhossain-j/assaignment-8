@@ -6,15 +6,21 @@
     "name": "John Doe",
     "speciality": "Criminal Law",
     "experience": "10+ years Experience",
-    "licenseNumber": " License No: BD 124512547"
+    "licenseNumber": " License No: BD 124512547",
+    "consultation":"Taka:5000",
+    "availability":["Sunday", "Monday", "Thursday"],
+    "uv":5100
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/DfN1dK5r/Chat-GPT-Image-May-16-2025-06-29-19-AM.png",
+    "image": "https://resizing.flixster.com/VRufAQk2OEAZ1QjG47KwN93XuHM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vODE3MWViYjctYjYzNS00OTcwLThhMTctZTQyYjc1MjNlNjg0LmpwZw==",
     "name": "Emily Carter",
     "speciality": "Family Law",
     "experience": "7+ years Experience",
-    "licenseNumber": " License No: BD 124512594"
+    "licenseNumber": " License No: BD 124512594",
+     "consultation":" Taka:6000",
+    "availability": [ "Saturday","Monday","Thursday"],
+    "uv": 3000
   },
   {
     "id": 3,
@@ -22,7 +28,10 @@
     "name": "Robert Smith",
     "speciality": "Corporate Law",
     "experience": "12+ years Experience",
-    "licenseNumber": " License No: BD 124512588"
+    "licenseNumber": " License No: BD 124512588",
+     "consultation":"Taka:4000",
+  "availability": ["Friday","Monday","Thursday"],
+    "uv": 2000
   },
   {
     "id": 4,
@@ -30,7 +39,10 @@
     "name": "Ava Brown",
     "speciality": "Immigration Law",
     "experience": "5+ years Experience",
-    "licenseNumber": " License No: BD 124512562"
+    "licenseNumber": " License No: BD 124512562",
+     "consultation":"Taka:7000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 1000
   },
   {
     "id": 5,
@@ -38,7 +50,10 @@
     "name": "Michael Lee",
     "speciality": "Intellectual Property",
     "experience": "8+ years Experience",
-    "licenseNumber": " License No: BD 1245125411"
+    "licenseNumber": " License No: BD 1245125411",
+     "consultation":"Taka:9000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 1500
   },
   {
     "id": 6,
@@ -46,7 +61,10 @@
     "name": "Sophia Turner",
     "speciality": "Environmental Law",
     "experience": "6+ years Experience",
-    "licenseNumber": " License No: BD 1245125477"
+    "licenseNumber": " License No: BD 1245125477",
+     "consultation":"Taka:8000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 5000
   },
   {
     "id": 7,
@@ -54,7 +72,10 @@
     "name": "David Wilson",
     "speciality": "Labor Law",
     "experience": "9+ years Experience",
-    "licenseNumber": " License No: BD 1245125455"
+    "licenseNumber": " License No: BD 1245125455",
+     "consultation":"Taka:5000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 1200
   },
   {
     "id": 8,
@@ -62,7 +83,10 @@
     "name": "Isabella Moore",
     "speciality": "Bankruptcy Law",
     "experience": "4+ years Experience",
-    "licenseNumber": " License No: BD 1245125444"
+    "licenseNumber": " License No: BD 1245125444",
+     "consultation":"Taka:3000",
+    "availability": ["Friday","Monday","Thursday"],
+    "uv": 2800
   },
   {
     "id": 9,
@@ -70,7 +94,10 @@
     "name": "William Taylor",
     "speciality": "Tax Law",
     "experience": "11+ years Experience",
-    "licenseNumber": " License No: BD 1245125478"
+    "licenseNumber": " License No: BD 1245125478",
+     "consultation":"Taka:9000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 1700
   },
   {
     "id": 10,
@@ -78,7 +105,10 @@
     "name": "Mia Anderson",
     "speciality": "Real Estate Law",
     "experience": "6+ years Experience",
-    "licenseNumber": " License No: BD 124512593"
+    "licenseNumber": " License No: BD 124512593",
+     "consultation":"Taka:15000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 2900
   },
   {
     "id": 11,
@@ -86,7 +116,10 @@
     "name": "James Thomas",
     "speciality": "Civil Rights Law",
     "experience": "13+ years Experience",
-    "licenseNumber": " License No: BD 124512572"
+    "licenseNumber": " License No: BD 124512572",
+     "consultation":"Taka:8000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 3300
   },
   {
     "id": 12,
@@ -94,6 +127,9 @@
     "name": "Charlotte Harris",
     "speciality": "Entertainment Law",
     "experience": "5+ years Experience",
-    "licenseNumber": " License No: BD 1245125847"
+    "licenseNumber": " License No: BD 1245125847",
+     "consultation":"Taka:5000",
+    "availability":  ["Friday","Monday","Thursday"],
+    "uv": 4300
   }
 ]

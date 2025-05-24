@@ -15,12 +15,13 @@ export const router = createBrowserRouter([
   {
     path:'/',
     Component:Mainlayout,
-    errorElement:<Error></Error>,
+    errorElement:<Error/>,
     children:[
         {
              path:'/',
             element:<Home/>,
-            loader:() =>fetch('lawyers.json'),
+            hydrateFallbackElement:<p>Loading, please wait....</p>,
+            loader:() =>fetch('../lawyers.json'),
         },
       {
         path:'/favorite',
@@ -32,11 +33,13 @@ export const router = createBrowserRouter([
        {
     path:'/Bookings',
     element:<Bookings></Bookings>,
+    loader:() =>fetch('../lawyers.json'),
   },
       
   {
     path:'/Blogs',
     element:<Blogs></Blogs>,
+    loader:()=>fetch('../blogs.json'),
 
   },
   
@@ -47,8 +50,9 @@ export const router = createBrowserRouter([
 
   },
   {
-    path:'/lawyer-details',
-    element:<LawyerDetails></LawyerDetails>
+    path:'/lawyer-details/:id',
+    element:<LawyerDetails></LawyerDetails>,
+      loader:() =>fetch('../lawyers.json'),
   }
  
 

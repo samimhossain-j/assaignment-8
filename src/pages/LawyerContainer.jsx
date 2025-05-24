@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import LawyerCard from '../Component/LawyerCard';
 import { useEffect } from 'react';
+import Count from './Count';
+import UseCounterUp from '../Component/UseCounterUp';
+
 
 const LawyerContainer = ({lawyer}) => {
     const [displayLawyers, setDisplayLawyers] = useState([])
@@ -31,6 +34,9 @@ const LawyerContainer = ({lawyer}) => {
 
             </div>
            
+           
+                  <Count ></Count>
+                 {/* <UseCounterUp></UseCounterUp> */}
             
         </div>
     );
