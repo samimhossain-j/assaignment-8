@@ -3,8 +3,7 @@ import { Link } from 'react-router';
 import { useParams } from 'react-router';
 import { useLoaderData } from 'react-router';
 import { addAppointment } from '../utilis';
-import { Slide, toast } from 'react-toastify';
-import { useState } from 'react';
+
 
 
 const LawyerDetails = () => {
@@ -28,12 +27,7 @@ const LawyerDetails = () => {
     
            addAppointment(singleLawyer)
           
-           toast.success(`Appointment scheduled for ${name} successfully`, {
-          position: "top-right",
-          autoClose: 4000,
-          theme: "light",
-          transition: Slide,
-        });
+        
     }
     return (
 
@@ -63,10 +57,7 @@ const LawyerDetails = () => {
                     <div className='flex gap-5'>
                         <p className='font-medium text-base text-[#0F0F0F70]'>{speciality}</p>
                         <p className='font-medium text-base text-[#0F0F0F70]'>{licenseNumber}</p>
-                        {/*    data.synonyms.length >= 3
-      ? data.synonyms.slice(0, 3).map((s) => `<button class="btn">${s}</button>`).join('')
-      : Array(3).fill(`<button class="btn">${undefined}</button>`).join('')
-  } */}
+         
                     </div>
                     <p className=' text-base pt-2 text-[#14141470]'>Availability:
                                       {availability.length >= 3

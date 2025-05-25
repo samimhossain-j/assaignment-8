@@ -17,12 +17,12 @@ const TriangleBar = (props) => {
 
   return <path d={getPath(x, y, width, height)} stroke="none" fill={fill} />;
 };
-const BookingChart = () => {
-       const [displayLawyers, setDisplayLawyers] = useState([])
-         useEffect(()=>{
-            const saveLawyer = getFavorite()
-            setDisplayLawyers(saveLawyer)
-         },[])
+const BookingChart = ({displayLawyers}) => {
+      //  const [displayLawyers, setDisplayLawyers] = useState([])
+      //    useEffect(()=>{
+      //       const saveLawyer = getFavorite()
+      //       setDisplayLawyers(saveLawyer)
+      //    },[])
     return (
         <div className='border border-gray-200 rounded-2xl p-2'>
              <BarChart

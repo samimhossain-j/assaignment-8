@@ -1,3 +1,4 @@
+import { Slide, toast } from "react-toastify"
 
 export const getFavorite = () =>{
     const favorite = localStorage.getItem('favorite')
@@ -11,9 +12,15 @@ export const addAppointment = lawyer =>{
     const favorite = getFavorite()
     console.log(favorite)
     const isExist = favorite.find(p=>p.id ===lawyer.id)
-    if(isExist) return console.log('exit')
+    if(isExist) return toast.success('Appointment already scheduled for today')
     favorite.push(lawyer)
   localStorage.setItem('favorite', JSON.stringify(favorite))
+     toast.success(`Appointment scheduled for ${lawyer.name} successfully`, {
+          position: "top-right",
+          autoClose: 4000,
+          theme: "light",
+          transition: Slide,
+        });
 }
 
 export const removeFavorite = id =>{

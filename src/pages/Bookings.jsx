@@ -5,6 +5,7 @@ import LawyerCard from '../Component/LawyerCard';
 import {  getFavorite, removeFavorite } from '../utilis';
 import BookingChart from './BookingChart';
 import { Slide, toast } from 'react-toastify';
+import Wrong from '../Component/Wrong';
 
 
 const Bookings = () => {
@@ -13,6 +14,7 @@ const Bookings = () => {
      useEffect(()=>{
         const saveLawyer = getFavorite()
         setDisplayLawyers(saveLawyer)
+        
      },[])
      console.log(displayLawyers)
    
@@ -20,9 +22,6 @@ const Bookings = () => {
            console.log(id)
            removeFavorite(id)
            setDisplayLawyers(getFavorite())
-           
-       
-           
              
            toast.success('Appointment Cancel', {
           position: "top-right",
@@ -34,7 +33,8 @@ const Bookings = () => {
   
     return (
            <div className='py-12'>
-              <BookingChart/>
+            <Wrong></Wrong>
+              <BookingChart displayLawyers={displayLawyers}/>
              
               <div className='flex flex-col gap-15'>
                 <div className='text-center my-4 pb-4'>
